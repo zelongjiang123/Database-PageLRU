@@ -1,4 +1,5 @@
 Project overview:
+
 Many database management systems (DBMSs) are designed to handle databases that are too large to fit entirely in main memory. The buffer manager is the component of a DBMS responsible for transferring pages between disk and memory as needed. The buffer manager also decides which pages should be replaced when the buffer pool is full. Because the buffer manager handles these details, higher-level DBMS code can be written without worrying about whether pages are in memory or not.
 
 In this project, you will be customizing the buffer manager of SQLite. SQLite is the most widely deployed DBMS in existence. It is found on nearly every smartphone, computer, internet browser, and automobile. There are likely over 1 trillion SQLite databases in active use. Specifically, you will extend SQLite with two custom page replacement algorithms.
